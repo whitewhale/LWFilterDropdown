@@ -1,33 +1,5 @@
 /* FILTER DROPDOWN JQUERY PLUGIN
-
-   Requries jQuery is loaded before loading this plugin.
-
-   Usage:
-   Call .filterDropdown() on the container.
-   Elements inside the container are filtered by data-attribute.
-
-   Add a data attribute to each element: data-filter-[name]="value|value one|value two"
-   where [name] is the identifier
-   attribute values can contain spaces, different values are separated with pipes
-
-   Then add a select dropdown element to the page with id #filter-[name]
-   where [name] is the same identifier for example:
-
-   <div class="filter">
-     <label for="filter-color">Sort by color:</label>
-     <select id="filter-color" name="photo-color"></select>
-   </div>
-
-   The jQuery looks at all the data attributes, compiles a list of available options, and adds them to the select dropdown.
-
-   To add mutiple filters to the page, use a different [name] for each filter and data-attribute pair.
-
-   To customize the no-results message pass the item type as a parameter:
-   $('.photo-container').filterDropdown('photos')
-   displays message "There are no photos matching your selection"
-
-   This plugin downloads Isotope.js to animate the filtered items
-   http://isotope.metafizzy.co/
+https://github.com/whitewhale/LWFilterDropdown
 */
 
 ;(function($) {
