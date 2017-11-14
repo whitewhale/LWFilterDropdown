@@ -56,6 +56,9 @@ https://github.com/whitewhale/LWFilterDropdown
         return i == values.indexOf(itm);
       });
 
+      // Alphabetize array
+      values.sort();
+
       // Append each unique value to the selector element
       for ( var j = 0; j < values.length; j++) {
         var value = values[j];
