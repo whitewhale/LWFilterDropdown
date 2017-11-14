@@ -56,8 +56,13 @@ https://github.com/whitewhale/LWFilterDropdown
         return i == values.indexOf(itm);
       });
 
-      // Alphabetize array
+     // Alphabetize array
       values.sort();
+
+      // Push "Other" to the end of the Alphabetized array, if it exists
+      if (values.indexOf('Other') != -1) {
+        values.push(values.splice(values.indexOf('Other'), 1)[0]);
+      } 
 
       // Append each unique value to the selector element
       for ( var j = 0; j < values.length; j++) {
