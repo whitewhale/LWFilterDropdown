@@ -29,11 +29,14 @@ Note:
     ~~~~
     <div class="filter">
      <label for="filter-color">Sort by color:</label>
-     <select id="filter-color" name="photo-color"></select>
+     <select id="filter-color" name="photo-color">
+      <option selected="selected" value="all">All Options</option>
+     </select>
     </div>
     ~~~~
     
    - **[name]** is the same identifier.
+   - Use option value="all" to display all items.
    - You can place it anywhere you like on the page.
 
 
