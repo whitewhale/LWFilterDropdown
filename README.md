@@ -1,4 +1,12 @@
-# LWFilterDropdown
+# LWFilterDropdown - Archived
+
+This repository is no longer supported. 
+
+Code has been incorporated into LiveWhale Ingredients. 
+
+
+=================================================================================
+
 Dynamically add options to a dropdown selector using the data-attributes from a set of elements.
 
 The appropriate elements will be hidden and displayed when an option is selected.
